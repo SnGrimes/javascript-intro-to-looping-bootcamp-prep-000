@@ -17,6 +17,14 @@ function whileLoop(n) {
   return 'done';
 }
 
+while (maybeTrue()) {
+  console.log("And I ran; I ran so far away!");
+}
+
 function doWhileLoop(array) {
   
+function maybeTrue() {
+  return Math.random() >= 0.5;
+  
+}  
 }
